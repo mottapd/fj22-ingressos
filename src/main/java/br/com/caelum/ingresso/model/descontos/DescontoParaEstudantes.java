@@ -9,6 +9,12 @@ public class DescontoParaEstudantes implements Desconto{
 		// TODO Auto-generated method stub
 		return precoOriginal.divide(new BigDecimal("2.0"));
 	}
+
+	@Override
+	public String getDescricao() {
+		// TODO Auto-generated method stub
+		return "Desconto Estudantes";
+	}
 	
 	
 
