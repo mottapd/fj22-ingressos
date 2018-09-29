@@ -56,7 +56,9 @@ public class GerenciadorDeSessaoTest {
 	
 	@Test
 	public void testePermitirSessaoEntreFilmes(){
-		Assert.assertTrue(true);
+		List<Sessao> sessoes = Arrays.asList(sessaoDasDez, sessaoDasDezoito);
+		GerenciadorDeSessao gerenciador = new GerenciadorDeSessao(sessoes);
+		Assert.assertTrue(gerenciador.cabe(sessaoDasTreze));
 	}
 	
 }
