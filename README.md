@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.com/mottapd/fj22-ingressos.svg?branch=master)](https://travis-ci.com/mottapd/fj22-ingressos)
