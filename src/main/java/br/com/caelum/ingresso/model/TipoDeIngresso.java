@@ -13,6 +13,7 @@ public enum TipoDeIngresso {
 	BANCO(new DescontoParaBancos());
 	
 	private final Desconto desconto;
+	
 	TipoDeIngresso(Desconto desconto) {
 		this.desconto = desconto;
 	}
